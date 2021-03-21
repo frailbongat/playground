@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Logos</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .about-logos {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        padding: 40px 0;
+        margin: auto;
+        position: relative;
+      }
+
+      .about-logo-item {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .about-logo-link {
+        max-width: 200px;
+        margin: auto;
+        color: black;
+        text-decoration: none;
+        background: transparent;
+      }
+
+      .about-logo-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: 'Cartograph-Mono';
+        line-height: 1.7;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 20px;
+        min-height: 46px;
+      }
+
+      .about-logo-image {
+        width: 100%;
+        max-width: 60px;
+        margin: auto;
+        display: block;
+        border: 0 none;
+      }
+
+      @media (max-width: 991px) {
+        .about-logo-item {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="about-logos">
+      <div class="about-logo-item">
+        <a href="#" class="about-logo-link">
+          <h3 class="about-logo-title">VEGAN CERTIFIED BY</h3>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0130/2514/8987/files/LeapingBunny-CLR_300x.png?v=1590943277"
+            class="about-logo-image"
+          />
+        </a>
+      </div>
+      <div class="about-logo-item">
+        <a href="#" class="about-logo-link">
+          <h3 class="about-logo-title">INGREDIENT DEFINITIONS FROM</h3>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0130/2514/8987/files/CfM_Emblem_Black_transparent_2_300x.png?v=1590943346"
+            class="about-logo-image"
+          />
+        </a>
+      </div>
+      <div class="about-logo-item">
+        <a href="#" class="about-logo-link">
+          <h3 class="about-logo-title">SEARCH US ON</h3>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0130/2514/8987/files/EWG_Logo_300x.png?v=1590957848"
+            class="about-logo-image"
+          />
+        </a>
+      </div>
+      <div class="about-logo-item">
+        <a href="#" class="about-logo-link">
+          <h3 class="about-logo-title">PARTNER OF</h3>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0130/2514/8987/files/CFRN_LOGO_c0e65464-b28a-4a72-88ab-42f697a48916_300x.png?v=1590958134"
+            class="about-logo-image"
+          />
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
